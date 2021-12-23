@@ -1,0 +1,279 @@
+/*页面样式初始化*/
+body,div,ul,li,img{margin: 0px;padding: 0px;border: 0px;list-style: none;}
+input{padding-top: 0;padding-bottom: 0;}
+body{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    background-image: url("../img/BG.jpg");
+}
+a{text-decoration: none;}
+/*首页内容*/
+/*视频欣赏*/
+#part1{
+    height: 680px;
+    border-bottom: solid #3d3d3b;
+}
+#V_content{
+    width: 1000px;
+    height: 480px;
+    margin: 0px auto;
+}
+#V_content .V_content1{
+    width: 1000px;
+    height: 70px;
+    float: left;
+    line-height: 70px;
+    font-size: 25px;
+}
+#V_content .V_content2{
+    width: 1000px;
+    height: 410px;
+    float: left;
+}
+#V_content .V_content1 .ship{
+    color: #6de9e9;
+}
+#V_content .V_content1 .xinshang{
+    color: #ffffff;
+}
+
+/*part2*/
+#part2{
+    border-bottom: solid #3d3d3b;
+}
+#part2-content{
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto;
+
+}
+#part2-content .title{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    line-height: 90px;
+    font-size: 25px;
+}
+#part2-content .title .zhis{
+    color: #68bffc;
+}
+#part2-content .title .zhuanlan {
+    color: #ffffff;
+}
+.Z_content_l{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.Z_content_l p{
+    width: 300px;
+    position:relative;
+    left:30px;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 20px;
+    color: #3d3d3b;
+}
+.Z_content_l p:hover{
+    color: #0568b0;
+}
+.Z_content_r{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.Z_content_r .zhi {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+}
+.Z_content_r .Z-bian{
+    border: 1px double #3d3d3b;
+}
+/*更多精彩*/
+.zhi-l{
+    text-align: right;
+    font-family: "宋体";
+    font-size: 36px;
+    margin-bottom: 18px;
+    background: url(../img/t-line.png) no-repeat 0 27px;
+    position: relative;
+}
+.zhi-l .zhi-l-inner {
+    display: inline-block;
+    background-color: #8a8ea0;
+}
+.zhi-l .zhi-v1 {
+    color: #68bffc;
+    padding-left: 14px;
+}
+.zhi-l .zhi-v2 {
+    color: #3d3d3b;
+    padding-right: 14px;
+}
+/*列表*/
+.zhi .spot1, .zhi .spot2 {
+    border: none;
+    background-color: #68bffc;
+    color: #fff;
+    padding: 0;
+}
+.zhi .zhishi {
+    width: 21px;
+    height: 21px;
+    float: left;
+    line-height: 19px;
+    text-align: center;
+    margin-right: 12px;
+    border: 1px solid black;
+}
+.zhi span>a{
+    color: #333333;
+    font-family: "宋体";
+    font-size: 16px;
+}
+.zhi span>a:hover{
+    color: #0568b0;
+}
+.zhi .zhishi {
+    width: 21px;
+    height: 21px;
+    float: left;
+    line-height: 19px;
+    text-align: center;
+    margin-right: 12px;
+    border: 1px solid black;
+}
+.zhi>div {
+    margin: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*part3*/
+#part3{
+    border-bottom: solid #3d3d3b;
+}
+#part3-content{
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto;
+
+}
+#part3-content .title{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    line-height: 90px;
+    font-size: 25px;
+
+}
+#part3-content .title .zhis{
+    color: #0568b0;
+}
+.X_content_l{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.X_content_l{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.X_content_l .xin {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+}
+.X_content_l .X-bian{
+    border: 1px double #ffffff;
+}
+/*更多精彩*/
+.xin-l{
+    text-align: left;
+    font-family: "宋体";
+    font-size: 36px;
+    margin-bottom: 18px;
+    background: url(../img/t-line2.png) no-repeat 0 27px;
+    position: relative;
+}
+.xin-l .xin-l-inner {
+    display: inline-block;
+    background-color: #ffffff;
+}
+.xin-l .xin-v1 {
+    color: #0568b0;
+    padding-left: 14px;
+}
+.xin-l .xin-v2 {
+    color: #3d3d3b;
+    padding-right: 14px;
+}
+/*列表*/
+.xin .spot1, .xin .spot2 {
+    border: none;
+    background-color: #68bffc;
+    color: #fff;
+    padding: 0;
+}
+.xin .xinwen {
+    width: 21px;
+    height: 21px;
+    float: left;
+    line-height: 19px;
+    text-align: center;
+    margin-right: 12px;
+    border: 1px solid #ebedec;
+}
+.xin span>a{
+    color: #ebedec;
+    font-family: "宋体";
+    font-size: 16px;
+}
+.xin span>a:hover{
+    color: #0568b0;
+}
+
+.xin .xinwen {
+    width: 21px;
+    height: 21px;
+    float: left;
+    line-height: 19px;
+    text-align: center;
+    margin-right: 12px;
+    border: 1px solid black;
+}
+.xin>div {
+    margin: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.X_content_r{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.X_content_r>div{
+    margin-left: 100px;
+}
+.X_content_r p{
+    width: 300px;
+    position:relative;
+    left:30px;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 25px;
+    color: #ebedec;
+}
+.X_content_r p:hover{
+    color: #0568b0;
+}
+
+.title .subao{
+    color: #222a2c;
+}

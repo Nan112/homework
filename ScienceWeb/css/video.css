@@ -1,0 +1,15 @@
+#bofang{
+    width: 640px;
+    height: 360px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 445px;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+.biaoti{
+    text-align: center;
+    color: #ebedec;
+}

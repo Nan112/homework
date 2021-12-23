@@ -1,0 +1,38 @@
+/*头部和尾部的样式表*/
+/*导航栏背景颜色*/
+#header{
+    height: 320px;
+    background-color: #242a36;
+}
+.TMenu ul{
+    width: 850px;
+    margin: 0 auto;
+}
+.TMenu li{
+    float: left;
+    margin-right: 10px;/*距离右边10px*/
+    font-size: 20px;
+    height: 55px;
+    line-height: 55px;
+}
+.TMenu a{
+    color: #ebedec;
+    padding: 10px 35px;
+}
+.TMenu a:hover{
+    background-color: #111;
+}
+/*底部*/
+.bot{
+    height: 35px;
+    background-color: #242a36;
+}
+.bot p{
+    width: 500px;
+    margin: 0px auto;
+    height: 35px;
+    line-height: 35px;
+    color: #ebedec;
+    text-align: center;
+}
+

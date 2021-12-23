@@ -1,0 +1,27 @@
+.K{
+    width: 1000px;
+    height: 960px;
+
+    margin-top: 100px;
+    padding-left: 300px;
+    align-items: center;
+
+    color: #ebedec;
+}
+.kk{
+    width: 1000px;
+    height: 500px;
+
+    padding-left: 300px;
+    align-items: center;
+    color: #ebedec;
+}
+.k-l{
+    width: 440px;
+    float: left;
+    border-right: 1px solid #333333;
+}
+.k-r{
+    width: 450px;
+    float: left;
+}
